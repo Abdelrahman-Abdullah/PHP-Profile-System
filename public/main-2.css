@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'oswald';
+}
+body{
+  background-color: rgba(33, 13, 87, 0.297);
+}
+
+ul{
+  list-style: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+li{
+  padding: 5px;
+  font-size: 20px;
+}
+img{
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+button{
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  outline: none;
+  position: absolute;
+  top:50px;
+  left: 10%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(41, 126, 224);
+}
+p{
+  word-wrap: break-word;
+}
+.container{
+
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
+.child-1{
+  width: 40%;
+  padding: 10px;
+  height: fit-content;
+  position: relative;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+}
+
+.child-2{
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.child-2-1{
+  background-color: black ;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  padding: 20px;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.child-2-2{
+  margin-top: 2%;
+  padding: 20px;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.posts p,
+.posts h2{
+margin-left: 20px;
+
+}
+
+.child-2-2 h3{
+padding: 10px;
+}
+.posts{
+  position: relative;
+}
+.posts h2{
+  text-transform: uppercase;
+}
+.posts::before{
+  content: '';
+  width: 5px;
+  height: 90%;
+  background-color: black;
+  position: absolute;
+  top: 9%;
+}
